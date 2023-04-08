@@ -10,4 +10,4 @@ Vous pouvez créer et visualiser vos données en accèdant localhost:8081/phpMyA
 Remplacer la base de données dans le fichier applications.properties par votre propre base
 
 #
-Idrissa SALL, Ecole-IT, sall.idrissa092@gmail.com
+Idrissa SALL, Ecole-IT.
