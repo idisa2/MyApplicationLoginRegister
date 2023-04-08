@@ -8,3 +8,6 @@ Vérifie que toutes les dépendences sont installer
 # Acceder espace admin "phpMyAdmin" ou DBeaver
 Vous pouvez créer et visualiser vos données en accèdant localhost:8081/phpMyAdmin ou avec DBeaver 
 Remplacer la base de données dans le fichier applications.properties par votre propre base
+
+#
+Idrissa SALL, sall.idrissa092@gmail.com
