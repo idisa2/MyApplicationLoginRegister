@@ -2,7 +2,7 @@ package com.whoyouare.repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.whoyouare.modal.User;
+import com.whoyouare.model.User;
 
 public interface UserRepository extends CrudRepository<User, Integer> {	
 	

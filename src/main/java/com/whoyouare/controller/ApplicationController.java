@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.whoyouare.modal.User;
+import com.whoyouare.model.User;
 import com.whoyouare.services.UserService;
 
 @Controller
@@ -21,7 +21,7 @@ public class ApplicationController {
 	@Autowired
 	UserService userService;
 
-	@GetMapping("/welcome")
+	@GetMapping("/")
 	public String Welcome(HttpServletRequest request) {
 		request.setAttribute("mode", "MODE_HOME");
 		return "welcomepage";

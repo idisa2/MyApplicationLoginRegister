@@ -7,7 +7,7 @@ import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Service;
 
-import com.whoyouare.modal.User;
+import com.whoyouare.model.User;
 import com.whoyouare.repository.UserRepository;
 
 @Service

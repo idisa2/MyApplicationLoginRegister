@@ -13,7 +13,7 @@
 <body>
 	<div role="navigation">
 		<div class="navbar navbar-inverse">
-			<a href="/welcome" class="navbar-brand">Projet-sujet2</a>
+			<a href="/" class="navbar-brand">Projet-sujet2</a>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
 					<li><a href="/login">Login</a></li>
@@ -29,7 +29,18 @@
 			<div class="container" id="homediv">
 				<div class="jumbotron text-center">
 					<h1>Welcome to Projet-sujet2</h1>
-					<h3>Subscribe my channel to support me</h3>
+					<h3>Subscribe my channel to support me </h3>
+
+				</div>
+				<div class="navbar navbar-inverse">
+					<a href="/" class="navbar-brand">Home</a>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="/login">Login</a></li>
+							<li><a href="/register">New Registration</a></li>
+							<li><a href="/show-users">All Users</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
